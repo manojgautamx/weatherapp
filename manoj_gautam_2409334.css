@@ -1,0 +1,155 @@
+/* Resetting default styles for all elements */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+ 
+/* Styling for the entire webpage body */
+body {
+    background-color: rgb(35, 123, 255);
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+/* Styling for the main container of the application */
+.container {
+    width: 450px;
+    background: linear-gradient(#0916a5, #3140dc);
+    color: #fff9f9;
+    padding: 20px;
+    margin: 100px auto;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.container2 {
+    width: 450px;
+    background: linear-gradient(#0916a5, #3140dc);
+    color: #fff9f9;
+    padding: 20px;
+    margin: 100px auto;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+/* Styling for the search bar section */
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Styling for the search input field */
+.search input {
+    border: 0;
+    outline: 0;
+    padding: 10px 22px;
+    flex: 1;
+    margin-right: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: #fff;
+    color: #151414;
+}
+
+/* Styling for the search button */
+.search button {
+    border: 0;
+    outline: 0;
+    background-color: #fff7f7;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Styling for the search button image */
+.search button img {
+    width: 18px;
+}
+
+/* Styling for the weather icon */
+.weather .icon {
+    margin-top: 20px;
+    width: 100px;
+}
+
+/* Styling for the main weather title */
+.weather h1 {
+    font-size: 70px;
+    font-weight: 500;
+}
+
+/* Styling for the secondary weather subtitle */
+.weather h2 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+/* Styling for weather details section */
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: 50px;
+}
+
+/* Styling for individual weather details columns */
+.col {
+    display: flex;
+    align-items: center;
+}
+
+/* Styling for icons within weather details */
+.col img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+/* Styling for humidity and wind text */
+.humidityP .windS {
+    font-size: 35px;
+    font-weight: 10;
+}
+
+/* Styling for error messages */
+.error {
+    text-align: left;
+    color: rgb(254, 0, 0);
+    margin-top: 5px;
+    display: none;
+}
+
+
+/* Styling for the stored data container */
+.stored-data-container {
+    text-align: center;
+}
+
+/* Styling for the stored data items */
+.stored-data-item {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    text-align: left;
+}
+
+/* Additional styling for the flex container */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
